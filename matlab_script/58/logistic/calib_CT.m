@@ -1,12 +1,8 @@
 % model equation to generate y values for experimental data
 
-
-%kc_day = readmatrix('KC28.xlsx','Sheet','Sheet1','Range','A2:A30');
-%tspan = kc_day;
-
 tspan = linspace(0,t_end,1000)';
 
-p = prm(1); %input from objf_calib input? 
+p = prm(1); 
 k = prm(2); 
 
 
