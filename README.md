@@ -7,5 +7,6 @@ Function files:
 - objf_calib.m
 - calib_CT.m
 - simple_constraint.m (used if there are constraints for the unknown constants)
+- michaelismenten.m
 
 Note: The names of the function file in each of the folder are the same with the equations and constraints adjusted according to the model being studied.
