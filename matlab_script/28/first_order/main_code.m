@@ -12,27 +12,16 @@ t_end = 180; % end time
 varb(1) = 0.0097; % k1
 
 
-
-
 % lower and upper bounds for each parameter
-lb(1) = 0;
-ub(1) = 1;
-
-lb(2) = 1e-8;
-ub(2) = 5;
-
-lb(3) = 1e-8;
-ub(3) = 5;
+lb = 0;
+ub = 1;
 
 
 %% run Genetic Algorithm (GA)
 tic;
 init1 = varb'; %initial guess
 
-%ConstraintFunc = @simple_constraint; % impose nonlinear constraint
-
 % linear constraint
-% 
 Aeq = [];
 beq = [];
 
