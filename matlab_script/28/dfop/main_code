@@ -1,6 +1,6 @@
 clear all; clc; close all
 
-load('kc_membrane_remaining')
+load('kc28_membrane_remaining')
 
 % number of parameters to be calibrated
 nvars = 3;
