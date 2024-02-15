@@ -1,4 +1,3 @@
-#MATLAB code
 clear all; clc; close all
 
 load('kc_membrane_remaining') 
