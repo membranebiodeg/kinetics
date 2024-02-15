@@ -4,7 +4,7 @@ function ff = objf_calib(zguess,varb,t_exp,CT_exp,time_lag,t_end)
 prm = zguess;
 
 % run main code
-calib_CT_firstorder;
+calib_CT;
 
 % interpolating experimental data to simulation data points
 CT_new = interp1(t_exp,CT_exp,tspan,'pchip');
