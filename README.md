@@ -3,9 +3,9 @@ MATLAB codes and experimental data used for kinetic study of the membrane biodeg
 
 Eight kinetic models are used: First order, Dual First Order in Parallel (DFOP), First Order Two Compartment (FOTC), Carbon, Logistics, Modified Gompertz, Michaelis Menten and Third Half Order (THO).
 
-Function files
+Function files:
 - objf_calib.m
 - calib_CT.m
 - simple_constraint.m (used if there are constraints for the unknown constants)
 
-Note: The name of the function file in each of the folder is the same. However, the contents were adjusted to include the 
+Note: The names of the function file in each of the folder are the same with the equations and constraints adjusted according to the model being studied.
